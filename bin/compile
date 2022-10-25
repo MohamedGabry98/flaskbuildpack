@@ -93,7 +93,7 @@ export BLAS="\$HOME/.heroku/vendor/lib/libcblas.a"
 export LAPACK="\$HOME/.heroku/vendor/lib/liblapack.a"
 export LD_LIBRARY_PATH="\$HOME/.heroku/vendor/lib:\$LD_LIBRARY_PATH"
 export PATH="\$HOME/.heroku/vendor/bin:\$PATH"
-export PYTHONPATH="\$HOME/.heroku/vendor/lib/python2.7/site-packages/"
+export PYTHONPATH="\$HOME/.heroku/vendor/lib/python3.9/site-packages/"
 EOF
 
 deep-mv $BUILD_DIR $ORIG_BUILD_DIR
